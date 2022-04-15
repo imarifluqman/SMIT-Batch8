@@ -1,24 +1,27 @@
-@font-face{
+@font-face {
     font-family: myFirstFont;
     src: url(Roboto/Roboto-Black.ttf);
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-h1{
+
+h1 {
     text-align: center;
     border: 3px solid red;
     margin: 30px;
     padding: 10px;
-    border-radius: 8% 92% 7% 93% / 93% 6% 94% 7%  ;
+    border-radius: 8% 92% 7% 93% / 93% 6% 94% 7%;
     font-family: myFirstFont;
 }
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+div {
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
     font-size: 30px;
     margin: 10px auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -37,8 +40,7 @@ div{
     width: 100px;
     height: 100px;
     text-align: center;
-
-    border-radius: 46% 84% 42% 58% / 50% 41% 59% 70% ;
+    border-radius: 46% 84% 42% 58% / 50% 41% 59% 70%;
 }
 
 .div3 {
@@ -46,12 +48,17 @@ div{
     width: 100px;
     height: 100px;
     text-align: center;
-    border-radius: 46% 54% 42% 58% / 76% 41% 59% 24% ;
+    border-radius: 46% 54% 42% 58% / 76% 41% 59% 24%;
 }
+
 .div4 {
     background-color: rgb(243, 16, 213);
     width: 100px;
     height: 100px;
     text-align: center;
-    border-radius: 50% ;
+    border-radius: 50%;
+}
+
+.box {
+    background-color: aqua;
 }
