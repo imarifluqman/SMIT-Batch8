@@ -62,3 +62,8 @@ div {
 .box {
     background-color: aqua;
 }
+
+.img {
+    width: 100%;
+    background: red url("https://i.pinimg.com/originals/6b/c7/9c/6bc79c30723f7a9ed1f972bc6a3babdc.jpg") no-repeat fixed center;
+}
